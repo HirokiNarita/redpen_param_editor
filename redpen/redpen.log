@@ -1,0 +1,162 @@
+301  [qtp1558600329-20] INFO  o.a.w.s.i.servlet.RestServlet - The system is using the /WEB-INF/application JAX-RS application class named in the applicationConfigLocation init-param initialization parameter.
+385  [qtp1558600329-20] INFO  o.a.w.s.i.a.ApplicationProcessor - The following JAX-RS application has been processed: org.apache.wink.server.internal.application.ServletWinkApplication
+386  [qtp1558600329-20] INFO  o.a.w.server.internal.log.Resources - The server has registered the JAX-RS resource class cc.redpen.server.api.RedPenResource with @Path(/document).
+386  [qtp1558600329-20] INFO  o.a.w.server.internal.log.Resources - The server has registered the JAX-RS resource class cc.redpen.server.api.RedPenConfigurationResource with @Path(/config).
+386  [qtp1558600329-20] INFO  o.a.w.server.internal.log.Resources - The server has registered the JAX-RS resource class cc.redpen.server.api.WinkAPIDescriber with @Path(/).
+386  [qtp1558600329-20] INFO  o.a.w.server.internal.log.Providers - There are no custom JAX-RS providers defined in the application.
+412  [qtp1558600329-20] INFO  o.a.w.c.i.a.ApplicationFileLoader - The runtime is loading the JAX-RS application from jar:file:/private/var/folders/74/2jl7yhzj2gl8ns9t8xn5bcw40000gn/T/jetty-0.0.0.0-8080-redpen-server.war-_-any-8935861197663304542.dir/webapp/WEB-INF/lib/wink-json-provider-1.4.jar!/META-INF/wink-application
+647  [qtp1558600329-20] INFO  cc.redpen.server.api.RedPenService - Creating RedPen instances
+704  [qtp1558600329-20] INFO  org.reflections.Reflections - Reflections took 31 ms to scan 1 urls, producing 6 keys and 58 values 
+734  [qtp1558600329-20] WARN  c.redpen.validator.ValidatorFactory - cc.redpen.validator.sentence.SpaceBeginningOfSentenceValidator is deprecated
+758  [qtp1558600329-20] WARN  c.redpen.validator.ValidatorFactory - cc.redpen.validator.section.VoidSectionValidator is deprecated
+765  [qtp1558600329-20] INFO  org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 175 keys and 180 values 
+775  [qtp1558600329-20] INFO  cc.redpen.config.SymbolTable - Default symbol settings are loaded
+777  [qtp1558600329-20] INFO  cc.redpen.parser.SentenceExtractor - "[., ?, !]" are added as a end of sentence characters
+777  [qtp1558600329-20] INFO  cc.redpen.parser.SentenceExtractor - "[', "]" are added as a right quotation characters
+780  [qtp1558600329-20] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load InvalidWordValidator default dictionary.
+842  [qtp1558600329-20] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load SpellingValidator default dictionary.
+842  [qtp1558600329-20] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load DoubledWordValidator default dictionary.
+860  [qtp1558600329-20] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load StartWithCapitalLetterValidator default dictionary.
+860  [qtp1558600329-20] INFO  c.r.validator.JavaScriptValidator - JavaScript validators directory: js
+862  [qtp1558600329-20] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load weak expressions.
+863  [qtp1558600329-20] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load double negative expression rules.
+863  [qtp1558600329-20] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load double negative words.
+867  [qtp1558600329-20] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load word frequencies.
+869  [qtp1558600329-20] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load InvalidExpressionValidator default dictionary.
+870  [qtp1558600329-20] INFO  cc.redpen.config.SymbolTable - "ja" is specified.
+870  [qtp1558600329-20] INFO  cc.redpen.config.SymbolTable - "zenkaku" variant is specified
+1245 [qtp1558600329-20] INFO  cc.redpen.parser.SentenceExtractor - "[。, ？, ！]" are added as a end of sentence characters
+1245 [qtp1558600329-20] INFO  cc.redpen.parser.SentenceExtractor - "[’, ”]" are added as a right quotation characters
+1245 [qtp1558600329-20] ERROR cc.redpen.util.DictionaryLoader - Failed to load SpellingValidator default dictionary:default-resources/spellchecker/spellchecker-ja.dat: Failed to load input default-resources/spellchecker/spellchecker-ja.dat
+1246 [qtp1558600329-20] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load DoubledWordValidator default dictionary.
+1247 [qtp1558600329-20] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load katakana word dictionary.
+1248 [qtp1558600329-20] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load JapaneseExpressionVariationValidator default dictionary.
+1248 [qtp1558600329-20] INFO  c.r.validator.JavaScriptValidator - JavaScript validators directory: js
+1249 [qtp1558600329-20] ERROR cc.redpen.util.DictionaryLoader - Failed to load weak expressions:default-resources/weak-expressions/weak-expressions-ja.dat: Failed to load input default-resources/weak-expressions/weak-expressions-ja.dat
+1251 [qtp1558600329-20] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load double negative expression rules.
+1251 [qtp1558600329-20] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load double negative words.
+1252 [qtp1558600329-20] ERROR cc.redpen.util.DictionaryLoader - Failed to load word frequencies:default-resources/word-frequency/word-frequency-ja.dat: Failed to load input default-resources/word-frequency/word-frequency-ja.dat
+1252 [qtp1558600329-20] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load InvalidExpressionValidator default dictionary.
+1253 [qtp1558600329-20] INFO  cc.redpen.config.SymbolTable - "ja" is specified.
+1253 [qtp1558600329-20] INFO  cc.redpen.config.SymbolTable - "hankaku" variant is specified
+1253 [qtp1558600329-20] INFO  cc.redpen.parser.SentenceExtractor - "[., ?, !]" are added as a end of sentence characters
+1253 [qtp1558600329-20] INFO  cc.redpen.parser.SentenceExtractor - "[', "]" are added as a right quotation characters
+1254 [qtp1558600329-20] INFO  c.r.validator.JavaScriptValidator - JavaScript validators directory: js
+1255 [qtp1558600329-20] ERROR cc.redpen.util.DictionaryLoader - Failed to load weak expressions:default-resources/weak-expressions/weak-expressions-ja.dat: Failed to load input default-resources/weak-expressions/weak-expressions-ja.dat
+1256 [qtp1558600329-20] ERROR cc.redpen.util.DictionaryLoader - Failed to load word frequencies:default-resources/word-frequency/word-frequency-ja.dat: Failed to load input default-resources/word-frequency/word-frequency-ja.dat
+1257 [qtp1558600329-20] INFO  cc.redpen.config.SymbolTable - "ja" is specified.
+1257 [qtp1558600329-20] INFO  cc.redpen.config.SymbolTable - "zenkaku2" variant is specified
+1257 [qtp1558600329-20] INFO  cc.redpen.parser.SentenceExtractor - "[．, ？, ！]" are added as a end of sentence characters
+1257 [qtp1558600329-20] INFO  cc.redpen.parser.SentenceExtractor - "[’, ”]" are added as a right quotation characters
+1258 [qtp1558600329-20] INFO  c.r.validator.JavaScriptValidator - JavaScript validators directory: js
+1259 [qtp1558600329-20] ERROR cc.redpen.util.DictionaryLoader - Failed to load weak expressions:default-resources/weak-expressions/weak-expressions-ja.dat: Failed to load input default-resources/weak-expressions/weak-expressions-ja.dat
+1260 [qtp1558600329-20] ERROR cc.redpen.util.DictionaryLoader - Failed to load word frequencies:default-resources/word-frequency/word-frequency-ja.dat: Failed to load input default-resources/word-frequency/word-frequency-ja.dat
+1261 [qtp1558600329-20] INFO  cc.redpen.config.SymbolTable - "ru" is specified
+1261 [qtp1558600329-20] INFO  cc.redpen.parser.SentenceExtractor - "[., ?, !]" are added as a end of sentence characters
+1261 [qtp1558600329-20] INFO  cc.redpen.parser.SentenceExtractor - "[', »]" are added as a right quotation characters
+1262 [qtp1558600329-20] ERROR cc.redpen.util.DictionaryLoader - Failed to load SpellingValidator default dictionary:default-resources/spellchecker/spellchecker-ru.dat: Failed to load input default-resources/spellchecker/spellchecker-ru.dat
+1262 [qtp1558600329-20] ERROR cc.redpen.util.DictionaryLoader - Failed to load DoubledWordValidator default dictionary:default-resources/doubled-word/doubled-word-skiplist-ru.dat: Failed to load input default-resources/doubled-word/doubled-word-skiplist-ru.dat
+1262 [qtp1558600329-20] INFO  c.r.validator.JavaScriptValidator - JavaScript validators directory: js
+1262 [qtp1558600329-20] ERROR cc.redpen.util.DictionaryLoader - Failed to load weak expressions:default-resources/weak-expressions/weak-expressions-ru.dat: Failed to load input default-resources/weak-expressions/weak-expressions-ru.dat
+1263 [qtp1558600329-20] ERROR cc.redpen.util.DictionaryLoader - Failed to load word frequencies:default-resources/word-frequency/word-frequency-ru.dat: Failed to load input default-resources/word-frequency/word-frequency-ru.dat
+1263 [qtp1558600329-20] ERROR cc.redpen.util.DictionaryLoader - Failed to load InvalidExpressionValidator default dictionary:default-resources/invalid-expression/invalid-expression-ru.dat: Failed to load input default-resources/invalid-expression/invalid-expression-ru.dat
+1263 [qtp1558600329-20] INFO  cc.redpen.server.api.RedPenService - No Config Path set, using default configurations
+1263 [qtp1558600329-20] INFO  cc.redpen.server.api.RedPenService - Document Validator Server is running.
+1263 [qtp1558600329-16] INFO  cc.redpen.server.api.RedPenService - Creating RedPen instances
+1264 [qtp1558600329-16] INFO  cc.redpen.config.SymbolTable - Default symbol settings are loaded
+1264 [qtp1558600329-16] INFO  cc.redpen.parser.SentenceExtractor - "[., ?, !]" are added as a end of sentence characters
+1264 [qtp1558600329-16] INFO  cc.redpen.parser.SentenceExtractor - "[', "]" are added as a right quotation characters
+1264 [qtp1558600329-16] INFO  c.r.validator.JavaScriptValidator - JavaScript validators directory: js
+1265 [qtp1558600329-16] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load weak expressions.
+1267 [qtp1558600329-16] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load word frequencies.
+1268 [qtp1558600329-16] INFO  cc.redpen.config.SymbolTable - "ja" is specified.
+1269 [qtp1558600329-16] INFO  cc.redpen.config.SymbolTable - "zenkaku" variant is specified
+1269 [qtp1558600329-16] INFO  cc.redpen.parser.SentenceExtractor - "[。, ？, ！]" are added as a end of sentence characters
+1269 [qtp1558600329-16] INFO  cc.redpen.parser.SentenceExtractor - "[’, ”]" are added as a right quotation characters
+1269 [qtp1558600329-16] INFO  c.r.validator.JavaScriptValidator - JavaScript validators directory: js
+1270 [qtp1558600329-16] ERROR cc.redpen.util.DictionaryLoader - Failed to load weak expressions:default-resources/weak-expressions/weak-expressions-ja.dat: Failed to load input default-resources/weak-expressions/weak-expressions-ja.dat
+1270 [qtp1558600329-16] ERROR cc.redpen.util.DictionaryLoader - Failed to load word frequencies:default-resources/word-frequency/word-frequency-ja.dat: Failed to load input default-resources/word-frequency/word-frequency-ja.dat
+1271 [qtp1558600329-16] INFO  cc.redpen.config.SymbolTable - "ja" is specified.
+1271 [qtp1558600329-16] INFO  cc.redpen.config.SymbolTable - "hankaku" variant is specified
+1271 [qtp1558600329-16] INFO  cc.redpen.parser.SentenceExtractor - "[., ?, !]" are added as a end of sentence characters
+1272 [qtp1558600329-16] INFO  cc.redpen.parser.SentenceExtractor - "[', "]" are added as a right quotation characters
+1272 [qtp1558600329-16] INFO  c.r.validator.JavaScriptValidator - JavaScript validators directory: js
+1273 [qtp1558600329-16] ERROR cc.redpen.util.DictionaryLoader - Failed to load weak expressions:default-resources/weak-expressions/weak-expressions-ja.dat: Failed to load input default-resources/weak-expressions/weak-expressions-ja.dat
+1274 [qtp1558600329-16] ERROR cc.redpen.util.DictionaryLoader - Failed to load word frequencies:default-resources/word-frequency/word-frequency-ja.dat: Failed to load input default-resources/word-frequency/word-frequency-ja.dat
+1275 [qtp1558600329-16] INFO  cc.redpen.config.SymbolTable - "ja" is specified.
+1275 [qtp1558600329-16] INFO  cc.redpen.config.SymbolTable - "zenkaku2" variant is specified
+1275 [qtp1558600329-16] INFO  cc.redpen.parser.SentenceExtractor - "[．, ？, ！]" are added as a end of sentence characters
+1275 [qtp1558600329-16] INFO  cc.redpen.parser.SentenceExtractor - "[’, ”]" are added as a right quotation characters
+1276 [qtp1558600329-16] INFO  c.r.validator.JavaScriptValidator - JavaScript validators directory: js
+1276 [qtp1558600329-16] ERROR cc.redpen.util.DictionaryLoader - Failed to load weak expressions:default-resources/weak-expressions/weak-expressions-ja.dat: Failed to load input default-resources/weak-expressions/weak-expressions-ja.dat
+1277 [qtp1558600329-16] ERROR cc.redpen.util.DictionaryLoader - Failed to load word frequencies:default-resources/word-frequency/word-frequency-ja.dat: Failed to load input default-resources/word-frequency/word-frequency-ja.dat
+1278 [qtp1558600329-16] INFO  cc.redpen.config.SymbolTable - "ru" is specified
+1278 [qtp1558600329-16] INFO  cc.redpen.parser.SentenceExtractor - "[., ?, !]" are added as a end of sentence characters
+1278 [qtp1558600329-16] INFO  cc.redpen.parser.SentenceExtractor - "[', »]" are added as a right quotation characters
+1279 [qtp1558600329-16] INFO  c.r.validator.JavaScriptValidator - JavaScript validators directory: js
+1279 [qtp1558600329-16] ERROR cc.redpen.util.DictionaryLoader - Failed to load weak expressions:default-resources/weak-expressions/weak-expressions-ru.dat: Failed to load input default-resources/weak-expressions/weak-expressions-ru.dat
+1279 [qtp1558600329-16] ERROR cc.redpen.util.DictionaryLoader - Failed to load word frequencies:default-resources/word-frequency/word-frequency-ru.dat: Failed to load input default-resources/word-frequency/word-frequency-ru.dat
+1280 [qtp1558600329-16] INFO  cc.redpen.server.api.RedPenService - No Config Path set, using default configurations
+1280 [qtp1558600329-16] INFO  cc.redpen.server.api.RedPenService - Document Validator Server is running.
+1749 [qtp1558600329-15] INFO  cc.redpen.server.api.RedPenResource - Validating document using JSON request
+1750 [qtp1558600329-15] INFO  cc.redpen.config.SymbolTable - Default symbol settings are loaded
+1750 [qtp1558600329-15] INFO  cc.redpen.parser.SentenceExtractor - "[., ?, !]" are added as a end of sentence characters
+1750 [qtp1558600329-15] INFO  cc.redpen.parser.SentenceExtractor - "[', "]" are added as a right quotation characters
+1788 [qtp1558600329-15] WARN  c.r.p.m.ToFileContentSerializer - Failed to add parent for a Section
+1791 [qtp1558600329-15] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load word frequencies.
+1792 [qtp1558600329-15] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load weak expressions.
+1792 [qtp1558600329-15] INFO  c.r.validator.JavaScriptValidator - JavaScript validators directory: js
+96978 [qtp1558600329-14] INFO  cc.redpen.server.api.RedPenResource - Validating document using JSON request
+96978 [qtp1558600329-14] INFO  cc.redpen.config.SymbolTable - Default symbol settings are loaded
+96978 [qtp1558600329-14] INFO  cc.redpen.parser.SentenceExtractor - "[., ?, !]" are added as a end of sentence characters
+96978 [qtp1558600329-14] INFO  cc.redpen.parser.SentenceExtractor - "[', "]" are added as a right quotation characters
+96980 [qtp1558600329-14] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load word frequencies.
+96981 [qtp1558600329-14] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load weak expressions.
+96981 [qtp1558600329-14] INFO  c.r.validator.JavaScriptValidator - JavaScript validators directory: js
+98745 [qtp1558600329-12] INFO  cc.redpen.server.api.RedPenResource - Validating document using JSON request
+98745 [qtp1558600329-12] INFO  cc.redpen.config.SymbolTable - Default symbol settings are loaded
+98745 [qtp1558600329-12] INFO  cc.redpen.parser.SentenceExtractor - "[., ?, !]" are added as a end of sentence characters
+98745 [qtp1558600329-12] INFO  cc.redpen.parser.SentenceExtractor - "[', "]" are added as a right quotation characters
+98747 [qtp1558600329-12] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load word frequencies.
+98748 [qtp1558600329-12] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load weak expressions.
+98748 [qtp1558600329-12] INFO  c.r.validator.JavaScriptValidator - JavaScript validators directory: js
+100402 [qtp1558600329-20] INFO  cc.redpen.server.api.RedPenResource - Validating document using JSON request
+100403 [qtp1558600329-20] INFO  cc.redpen.config.SymbolTable - Default symbol settings are loaded
+100403 [qtp1558600329-20] INFO  cc.redpen.parser.SentenceExtractor - "[., ?, !]" are added as a end of sentence characters
+100403 [qtp1558600329-20] INFO  cc.redpen.parser.SentenceExtractor - "[', "]" are added as a right quotation characters
+100409 [qtp1558600329-20] WARN  c.r.p.m.ToFileContentSerializer - Failed to add parent for a Section
+100411 [qtp1558600329-20] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load word frequencies.
+100412 [qtp1558600329-20] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load weak expressions.
+100412 [qtp1558600329-20] INFO  c.r.validator.JavaScriptValidator - JavaScript validators directory: js
+103285 [qtp1558600329-20] INFO  cc.redpen.server.api.RedPenResource - Validating document using JSON request
+103286 [qtp1558600329-20] INFO  cc.redpen.config.SymbolTable - Default symbol settings are loaded
+103286 [qtp1558600329-20] INFO  cc.redpen.parser.SentenceExtractor - "[., ?, !]" are added as a end of sentence characters
+103286 [qtp1558600329-20] INFO  cc.redpen.parser.SentenceExtractor - "[', "]" are added as a right quotation characters
+103289 [qtp1558600329-20] WARN  c.r.p.m.ToFileContentSerializer - Failed to add parent for a Section
+103292 [qtp1558600329-20] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load word frequencies.
+103294 [qtp1558600329-20] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load weak expressions.
+103294 [qtp1558600329-20] INFO  c.r.validator.JavaScriptValidator - JavaScript validators directory: js
+68997674 [qtp1558600329-10] INFO  cc.redpen.server.api.RedPenResource - Validating document using JSON request
+68997675 [qtp1558600329-10] INFO  cc.redpen.config.SymbolTable - Default symbol settings are loaded
+68997675 [qtp1558600329-10] INFO  cc.redpen.parser.SentenceExtractor - "[., ?, !]" are added as a end of sentence characters
+68997675 [qtp1558600329-10] INFO  cc.redpen.parser.SentenceExtractor - "[', "]" are added as a right quotation characters
+68997680 [qtp1558600329-10] WARN  c.r.p.m.ToFileContentSerializer - Failed to add parent for a Section
+68997682 [qtp1558600329-10] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load word frequencies.
+68997683 [qtp1558600329-10] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load weak expressions.
+68997685 [qtp1558600329-10] INFO  c.r.validator.JavaScriptValidator - JavaScript validators directory: js
+69164467 [qtp1558600329-21] INFO  cc.redpen.server.api.RedPenResource - Validating document using JSON request
+69164468 [qtp1558600329-21] INFO  cc.redpen.config.SymbolTable - Default symbol settings are loaded
+69164468 [qtp1558600329-21] INFO  cc.redpen.parser.SentenceExtractor - "[., ?, !]" are added as a end of sentence characters
+69164468 [qtp1558600329-21] INFO  cc.redpen.parser.SentenceExtractor - "[', "]" are added as a right quotation characters
+69164472 [qtp1558600329-21] WARN  c.r.p.m.ToFileContentSerializer - Failed to add parent for a Section
+69164473 [qtp1558600329-21] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load word frequencies.
+69164475 [qtp1558600329-21] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load weak expressions.
+69164475 [qtp1558600329-21] INFO  c.r.validator.JavaScriptValidator - JavaScript validators directory: js
+69165876 [qtp1558600329-21] INFO  cc.redpen.server.api.RedPenResource - Validating document using JSON request
+69165876 [qtp1558600329-21] INFO  cc.redpen.config.SymbolTable - Default symbol settings are loaded
+69165876 [qtp1558600329-21] INFO  cc.redpen.parser.SentenceExtractor - "[., ?, !]" are added as a end of sentence characters
+69165876 [qtp1558600329-21] INFO  cc.redpen.parser.SentenceExtractor - "[', "]" are added as a right quotation characters
+69165878 [qtp1558600329-21] WARN  c.r.p.m.ToFileContentSerializer - Failed to add parent for a Section
+69165879 [qtp1558600329-21] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load word frequencies.
+69165880 [qtp1558600329-21] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load weak expressions.
+69165880 [qtp1558600329-21] INFO  c.r.validator.JavaScriptValidator - JavaScript validators directory: js

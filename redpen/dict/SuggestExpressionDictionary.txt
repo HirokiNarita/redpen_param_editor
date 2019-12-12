@@ -1,0 +1,43 @@
+私は	筆者は
+イメージ図	　　　図
+とても	極めて
+同じ	同一
+がわかった	　　　が明らかになった
+Journal	J.
+Transactions	Trans.
+Proceedings	Proc.
+Annals	Ann.
+Annual	Annu.
+Conference	Conf.
+Congress	Cong.
+International	Int'l
+電子情報通信学会論文誌	信学論
+情報処理学会論文誌	情処論
+画像電子学会誌	画電学誌
+電子情報通信学会技術報告	信学技報
+信学技法	信学技報
+情報処理学会研究報告	情処研報
+情処憲法	情処研報
+情処研法	情処研報
+電子情報通信学会全国大会講演論文集	信学全大
+情報処理学会全国大会講演論文集	情処全大
+内臓する	内蔵する
+内臓した	内蔵した
+誤差逆伝搬	誤差逆伝播
+電波伝搬	電波伝播
+シュミレーション	シミュレーション
+と言う	という
+と言わ	といわ
+So	Therefore
+can't	cannot
+isn't	is not
+don't	do not
+some	several
+give	provide
+so much	too much
+huge	significant
+tell	inform
+やった	実施した
+することができる	できる
+プライオリティ	優先順位
+キャノン	キヤノン

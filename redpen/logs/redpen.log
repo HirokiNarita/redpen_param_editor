@@ -1,0 +1,24 @@
+2018-11-22 21:28:37.304:INFO::main: Logging initialized @201ms to org.eclipse.jetty.util.log.StdErrLog
+2018-11-22 21:28:37.457:INFO:oejs.Server:main: jetty-9.4.z-SNAPSHOT; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_191-b12
+2018-11-22 21:28:38.995:INFO:oejw.StandardDescriptorProcessor:main: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+2018-11-22 21:28:39.004:INFO:oejs.session:main: DefaultSessionIdManager workerName=node0
+2018-11-22 21:28:39.005:INFO:oejs.session:main: No SessionScavenger set, using defaults
+2018-11-22 21:28:39.009:INFO:oejs.session:main: node0 Scavenging every 600000ms
+2018-11-22 21:28:39.033:INFO:oejsh.ContextHandler:main: Started o.e.j.w.WebAppContext@47ef968d{RedPen Server,/,file:///private/var/folders/74/2jl7yhzj2gl8ns9t8xn5bcw40000gn/T/jetty-0.0.0.0-8080-redpen-server.war-_-any-8935861197663304542.dir/webapp/,AVAILABLE}{file:/Users/sawano/Dropbox/src/redpen/redpen-distribution/target/redpen-distribution-1.10.3-SNAPSHOT/bin/redpen-server.war}
+2018-11-22 21:28:39.070:INFO:oejs.AbstractConnector:main: Started ServerConnector@30b8a058{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2018-11-22 21:28:39.070:INFO:oejs.Server:main: Started @1972ms
+21:28:43,636 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+21:28:43,636 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+21:28:43,636 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/private/var/folders/74/2jl7yhzj2gl8ns9t8xn5bcw40000gn/T/jetty-0.0.0.0-8080-redpen-server.war-_-any-8935861197663304542.dir/webapp/WEB-INF/classes/logback.xml]
+21:28:43,681 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+21:28:43,815 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.FileAppender]
+21:28:43,826 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+21:28:43,853 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+21:28:43,874 |-INFO in ch.qos.logback.core.FileAppender[FILE] - File property is set to [redpen.log]
+21:28:43,875 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+21:28:43,875 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[ROOT]
+21:28:43,876 |-ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [STDOUT]. Did you define it below instead of above in the configuration file?
+21:28:43,876 |-ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+21:28:43,876 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+21:28:43,876 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@3124f29d - Registering current configuration as safe fallback point
+

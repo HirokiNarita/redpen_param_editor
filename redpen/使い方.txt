@@ -1,0 +1,20 @@
+・動かし方(サーバに置いてあるやつの使い方)
+
+※javaのバージョンを最新のものにアップデートすること
+確認方法: java -version
+例:(java version "1.8.0_151”)
+たぶん1.8以上あれば動くと思う
+
+
+①コマンド打つ
+export PATH=$PATH:/Volumes/Public/2_便利ソフト/redpen/bin
+②コマンド打つ
+redpen -L ja <ファイル名>
+
+pdfのままではできない。ファイル名は.txtとか.texで。
+
+
+参考URL
+http://redpen.cc/docs/latest/index_ja.html#katakanaendhyphen(リファレンス)
+https://qiita.com/takahi-i/items/f16fd93e2e5061851320
+http://gihyo.jp/lifestyle/serial/01/redpen/0001
